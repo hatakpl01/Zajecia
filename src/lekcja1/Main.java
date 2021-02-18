@@ -45,19 +45,25 @@ public class Main {
 //        bajcik = 129;
 //        intigerek = 129;
 
-//        float floacik = 0.123F;
-//        double dablik = 0.123;
-//
-//        System.out.println(floacik);
-//        System.out.println(dablik);
-//
-//        floacik = 0.123456789F;
-//        dablik = 0.123456789;
-//
-//        System.out.println("float: " + floacik);
-//        System.out.println("double: " + dablik);
+        float floacik = 0.123F;
+        double dablik = 0.123;
 
-//        System.out.println(2 - 1.1);
+        System.out.println(floacik);
+        System.out.println(dablik);
+
+        floacik = 0.123456789F;
+        dablik = 0.123456789;
+
+        System.out.println("lubie placki: " + floacik);
+        System.out.println("i czeresnie: " + dablik);
+
+        System.out.println(2 - 1.1);
+
+        int dzien = 18;
+        String miesiac = "luty";
+        int rok = 2021;
+
+        System.out.println("Dzisiaj jest " + dzien + " " + miesiac + " " + rok);
 
 
 
