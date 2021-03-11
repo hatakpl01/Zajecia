@@ -1,12 +1,14 @@
 package lekcja4;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
 //          1. Konwersja typów numerycznych
 
 //        int liczbaInt = 5;
 //        double liczbaDouble = liczbaInt;
-//
+
 //        System.out.println(liczbaInt);
 //        System.out.println(liczbaDouble);
 
@@ -32,7 +34,7 @@ public class Main {
 //        x = x + 5;
 //        System.out.println(x);
 //
-//        x += 5;
+//        x += 1;
 //        System.out.println(x);
 //
 //        x *= 2;
@@ -43,19 +45,19 @@ public class Main {
 //
 //        int i = 0;
 //
-//        // postinkrementacji
+//         postinkrementacji
 //        i++;
 //        System.out.println(i);
 //
-//        // postdekrementacji
+//         postdekrementacji
 //        i--;
 //        System.out.println(i);
 //
-//        // preinkrementacji
+//         preinkrementacji
 //        ++i;
 //        System.out.println(i);
 //
-//        // postdekrementacji
+//         postdekrementacji
 //        --i;
 //        System.out.println(i);
 //
@@ -69,10 +71,10 @@ public class Main {
 //        System.out.println("n = " + n);
 //        System.out.println("a = " + a);
 //        System.out.println("b = " + b);
-
-
+//
+//
 //          5. Operatory relacyjne i logiczne
-
+//
 //        System.out.println( "3 == 7 " + (3 == 7));
 //        System.out.println( "3 != 7 " + (3 != 7));
 //        System.out.println( "3 > 7 " + (3 > 7));
@@ -82,7 +84,7 @@ public class Main {
 //
 //        System.out.println("true || false " + (true || false));
 //        System.out.println("true && false " + (true && false));
-
+//
 //          TROCHĘ SIĘ WCINAM Z PĘTLAMI - w książce inaczej, po to żeby robić zadanka
 //        6. Pętla while()
 //        while(<warunek_prawdziwy>) {
@@ -99,9 +101,22 @@ public class Main {
 //        for(inicjalizacja; warunek_zakonczenia; co_robimy_co_obieg) {
 //            Robimy coś
 //        }
-//        for (int j = 5; j < 15; j++) {
-//            System.out.println("j = " + j);
-//        }
+        for (int j = 5; j < 15; j++) {
+            System.out.println("j = " + j);
+        }
 //        Wypisz liczby od 0 do 10;
+
+//        8. Wejście/wyjście I/O
+
+//      Wyjście
+        System.out.println("No elo");
+
+//      Wejście
+        Scanner in = new Scanner(System.in);
+        int zmienna1 = in.nextInt();
+        double zmienna2 = in.nextDouble();
+
+        System.out.println(zmienna1);
+        System.out.println(zmienna2);
     }
 }
